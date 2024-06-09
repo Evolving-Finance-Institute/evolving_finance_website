@@ -6,6 +6,10 @@ query GetHeader {
       headerNavMenu {
         name
         href
+        dropdown {
+          name
+          href
+        }
       }
       headerBtnA {
         name

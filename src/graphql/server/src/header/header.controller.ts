@@ -5,6 +5,7 @@ export const headerTypeDefs = gql`
   type Link {
     name: String!
     href: String!
+    dropdown: [Link]
   }
   #  Header
   type Header {

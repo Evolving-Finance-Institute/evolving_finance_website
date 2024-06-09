@@ -5,7 +5,11 @@
     "headerNavMenu": [
       {
         "name": "Product & Features",
-        "href": "https://payrole.io/store?seller=6287252bb287ec001aea455a"
+        "href": "https://payrole.io/store?seller=6287252bb287ec001aea455a",
+        "dropdown": [
+          {"name": "EFI Tracker",
+          "href": "efitracker.com"}
+        ]
       },
       {
         "name": "Solutions",
