@@ -41,3 +41,40 @@
     }
   }
 }
+
+.dropdown-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.dropdown li {
+  margin-bottom: 10px;
+}
+
+.dropdown li:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  color: #666;
+}
+
+.dropdown-container:hover .dropdown {
+  display: block;
+}
